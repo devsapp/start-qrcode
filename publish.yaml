@@ -20,7 +20,6 @@ Parameters:
     - serviceName
     - functionName
     - timeZone
-    - roleArn
   properties:
     region:
       title: 地域
