@@ -44,16 +44,9 @@ resources:
             methods:
               - GET
               - POST
-  fc3_domain_0:
-    component: fc3-domain
-    props:
-      region: ${vars.region}
-      domainName: auto
-      protocol: HTTP
-      routeConfig:
-        routes:
-          - path: /*
-            methods:
-              - GET
-              - POST
-            functionName: ${resources.qrcode.props.functionName}
+      customDomain:
+        domainName: auto
+        protocol: HTTP
+        route:
+          path: /*
+          qualifier: LATEST
