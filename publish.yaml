@@ -3,7 +3,7 @@ Type: Project
 Name: start-qrcode-cap
 Provider:
   - 阿里云
-Version: 0.0.2
+Version: 0.0.3
 Description: 本案例将qrcode，这一简单、方便的二维码生成器，快速创建并部署到云原生应用开发平台 CAP。
 HomePage: https://github.com/devsapp/start-qrcode
 Tags:
