@@ -92,6 +92,11 @@
 ## 二次开发指南
 
 <development id="flushContent">
+
+您可以通过云端控制台 webIDE 的开发功能进行二次开发。
+
+也可以在初始化项目时，需要绑定代码仓库，CAP平台会自动配置代码仓库的Webhook。当仓库对应的分支有任何提交时，CAP平台会收到Webhook推送，并自动完成构建与部署。
+
 </development>
 
 
